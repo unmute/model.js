@@ -1,0 +1,27 @@
+{
+  "name": "model.js",
+  "version": "1.0.0",
+  "description": "Redis ORM",
+  "main": "Model.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ioredis": "0.0.25",
+    "@types/lodash": "^4.14.74",
+    "chai": "^4.1.2",
+    "ioredis": "^3.1.4",
+    "mocha": "^4.0.1",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.8",
+    "@types/bluebird-global": "^3.5.3",
+    "bluebird": "^3.5.0",
+    "bluebird-global": "^1.0.1",
+    "lodash": "^4.17.4",
+    "short-uuid": "^2.3.4"
+  }
+}
