@@ -13,6 +13,9 @@ class RedisORM {
 	constructor(db) {
 		redis = db
 	}
+	getDB() {
+		return redis
+	}
 	init(model, body) {
 		let s = model._info.schema
 		_.each(s, (type, k) => {

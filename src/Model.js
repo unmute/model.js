@@ -1,12 +1,12 @@
 //
-const RSet = require('./orm/RSet')
-const RedisORM = require('./orm/redis')
+const RSet = require('./RSet')
+const RedisORM = require('./redis')
 const pluralize = require('pluralize')
 const uuid = require('uuid').v4
 const shortid = require('shortid')
 const _ = require('lodash')
 const Types = require('./types')
-let orm = new RedisORM()
+let orm = undefined
 
 let schema = {
 	id: {
@@ -34,7 +34,12 @@ let schema = {
 }
 
 class Model extends Object {
-
+	static setDB(db) {
+		orm = new RedisORM(db)
+	}
+	static getORM() {
+		return orm
+	}
 	constructor(p) {
 		super()
 		_.assign(this, p)

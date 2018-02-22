@@ -2,30 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/bluebird-global@^3.5.3":
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/@types/bluebird-global/-/bluebird-global-3.5.3.tgz#82e5b7e083873d55dd46ff93c9b06607cf2ace0f"
-  dependencies:
-    "@types/bluebird" "*"
-
-"@types/bluebird@*", "@types/bluebird@^3.5.8":
-  version "3.5.18"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.18.tgz#6a60435d4663e290f3709898a4f75014f279c4d6"
-
-"@types/ioredis@0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@types/ioredis/-/ioredis-0.0.25.tgz#e3484c3ccc1bdf3bd310e413a3ce6f721018fbd2"
-  dependencies:
-    "@types/node" "*"
-
-"@types/lodash@^4.14.74":
-  version "4.14.88"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.88.tgz#97eaf2dc668f33ed8e511a5b627035f4ea20b0f5"
-
-"@types/node@*":
-  version "8.0.56"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.56.tgz#c4652f88d7a677e26ccc16c1485c282ce28f1ce9"
-
 any-base@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/any-base/-/any-base-1.1.0.tgz#ae101a62bc08a597b4c9ab5b7089d456630549fe"
@@ -37,10 +13,6 @@ assertion-error@^1.0.1:
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
-
-bluebird-global@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bluebird-global/-/bluebird-global-1.0.1.tgz#147c174f4e3a19740e80d992ea70ec3dc51d0d95"
 
 bluebird@^3.3.4, bluebird@^3.5.0:
   version "3.5.1"
@@ -305,6 +277,10 @@ pathval@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
 
+pluralize@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
+
 redis-commands@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.3.1.tgz#81d826f45fa9c8b2011f4cd7a0fe597d241d442b"
@@ -319,6 +295,10 @@ short-uuid@^2.3.4:
   dependencies:
     any-base "^1.0.0"
     uuid "^3.0.0"
+
+shortid@^2.2.8:
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.8.tgz#033b117d6a2e975804f6f0969dbe7d3d0b355131"
 
 supports-color@4.4.0:
   version "4.4.0"

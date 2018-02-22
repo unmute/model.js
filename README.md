@@ -1,7 +1,7 @@
 A redis ORM for nodejs using ioredis
 
 Example:
-```
+```javascript
 const Redis = require('ioredis')
 const Model = require('model.js')
 
