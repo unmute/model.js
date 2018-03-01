@@ -1,11 +1,11 @@
 {
   "name": "rorm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis ORM",
   "main": "src/Model.js",
   "scripts": {
     "prepublish":"npm test",
-    "test": "mocha ./test"
+    "test": "mocha --exit ./test"
   },
   "author": "",
   "license": "MIT",
