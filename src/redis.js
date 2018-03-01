@@ -134,7 +134,7 @@ class RedisORM {
 		})
 		return p.exec()
 			.then((r) => _(r)
-				.mapt(1)
+				.map(1)
 				.chunk(1 + model._info.sets.length)
 				.map(ret => {
 					if (!ret[0] || _.isEmpty(ret[0]))

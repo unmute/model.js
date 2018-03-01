@@ -3,6 +3,7 @@ module.exports = {
 	String: 1,
 	Int: 2,
 	Double: 3,
+	Float: 3,
 	Boolean: 5,
 	Date: 6,
 	Array: 7,

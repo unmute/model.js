@@ -4,6 +4,7 @@
   "description": "Redis ORM",
   "main": "src/Model.js",
   "scripts": {
+    "prepublish":"npm test",
     "test": "mocha ./test"
   },
   "author": "",

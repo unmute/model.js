@@ -2,8 +2,7 @@
 const RSet = require('./RSet')
 const RedisORM = require('./redis')
 const pluralize = require('pluralize')
-const uuid = require('uuid').v4
-const shortid = require('shortid')
+const uuid = require('./uuid')
 const _ = require('lodash')
 const Types = require('./types')
 let orm = undefined
@@ -12,11 +11,6 @@ let schema = {
 	id: {
 		type: Types.String,
 		default: uuid
-	},
-	sid: {
-		type: Types.String,
-		default: () => shortid.generate(),
-		map: true
 	},
 	createdAt: {
 		type: Types.Date,
@@ -27,7 +21,7 @@ let schema = {
 		default: () => new Date()
 	},
 	version: {
-		type: Types.Date,
+		type: Types.Int,
 		hidden: true,
 		default: _.constant(1)
 	}
